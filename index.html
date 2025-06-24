@@ -1,0 +1,343 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Portfolio Website
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow sticky top-0 z-50">
+   <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a class="text-2xl font-bold text-indigo-600" href="#">
+     Nur Rahmad Rifkiyanto
+    </a>
+    <nav class="hidden md:flex space-x-8 font-semibold text-gray-700">
+     <a class="hover:text-indigo-600 transition" href="#about">
+      About
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#projects">
+      Projects
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#skills">
+      Skills
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#testimonials">
+      Testimonials
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#contact">
+      Contact
+     </a>
+    </nav>
+    <button class="md:hidden text-gray-700 focus:outline-none" id="menu-btn">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </div>
+   <nav class="md:hidden hidden bg-white border-t border-gray-200" id="mobile-menu">
+    <a class="block px-6 py-3 border-b border-gray-200 font-semibold text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition" href="#about">
+     About
+    </a>
+    <a class="block px-6 py-3 border-b border-gray-200 font-semibold text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition" href="#projects">
+     Projects
+    </a>
+    <a class="block px-6 py-3 border-b border-gray-200 font-semibold text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition" href="#skills">
+     Skills
+    </a>
+    <a class="block px-6 py-3 border-b border-gray-200 font-semibold text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition" href="#testimonials">
+     Testimonials
+    </a>
+    <a class="block px-6 py-3 font-semibold text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition" href="#contact">
+     Contact
+    </a>
+   </nav>
+  </header>
+  <main class="max-w-7xl mx-auto px-6 py-12">
+   <!-- Hero Section -->
+   <section class="flex flex-col-reverse md:flex-row items-center md:items-start gap-10 md:gap-20">
+    <div class="md:w-1/2 text-center md:text-left">
+     <h1 class="text-4xl sm:text-5xl font-extrabold text-indigo-600 leading-tight">
+      Nur Rahmad Rifkiyanto
+     </h1>
+     <p class="mt-4 text-lg text-gray-700 max-w-xl mx-auto md:mx-0">
+      Seorang Web Designer pemula yang mulai mempelajari proses pembuatan website melalui media AI, serupa Blackbox dan Cursor, transisi dari staff IT menuju Web Developer.
+     </p>
+     <a class="inline-block mt-6 px-8 py-3 bg-indigo-600 text-white font-semibold rounded-md shadow hover:bg-indigo-700 transition" href="#contact">
+      Contact Me
+     </a>
+    </div>
+    <div class="md:w-1/2 flex justify-center md:justify-end">
+     <img src="img/Foto diri.jpg" class="rounded-full w-64 h-64 object-cover shadow-lg" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/4d8d06d4-449f-4adf-019f-42575de48442.jpg" width="400"/>
+    </div>
+   </section>
+   <!-- About Section -->
+   <section class="mt-20 max-w-4xl mx-auto text-center" id="about">
+    <h2 class="text-3xl font-bold text-indigo-600">
+     Tentang saya
+    </h2>
+    <p class="mt-6 text-gray-700 text-lg leading-relaxed">
+      Hello! I’m Nur Rahmad Rifki Yanto, a passionate content creator rooted in the cultural richness of Kediri. When I’m not crafting engaging content, you’ll find me lost in the pages of a good book or exploring the rhythms of music—two hobbies that fuel my creativity and inspire fresh perspectives.
+    </p>
+    <p class="mt-4 text-gray-700 text-lg leading-relaxed">
+      Professionally, I thrive at the intersection of storytelling and technical precision. With expertise in database management and mastery of Microsoft Word, I ensure my work is not only creative but also structured, efficient, and detail-oriented. Whether designing content strategies or organizing complex data, I aim to deliver clarity and impact in every project.
+    </p>
+    <p class="mt-4 text-gray-600 text-lg leading-relaxed">
+      " Creativity meat precision"
+    </p>
+   </section>
+   <!-- Projects Section -->
+   <section class="mt-20 max-w-7xl mx-auto" id="projects">
+    <h2 class="text-3xl font-bold text-indigo-600 text-center mb-12">
+     Projects
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+      <img alt="E-commerce website homepage with modern UI and product grid" class="w-full h-48 object-cover" height="400" loading="lazy" src="img/Pengertian-Komputer-Perangkat-Keras-Perangkat-Lunak.jpg" width="600"/>
+      <div class="p-6">
+       <h3 class="text-xl font-semibold text-gray-900">
+        Maintenance Perangkat Komputer
+       </h3>
+       <p class="mt-2 text-gray-700">
+        Mampu memperbaiki setiap kerusakan terkait perangkat keras maupun perangkat lunak komputer, mulai dari hal dasar hingga penggantian komponen, serta mampu menganalisa kerusakan secara efisien yang dipelajari di SMK Jurusan Teknik Komputer Jaringan dan Pengalaman sebagai teknisi komputer di Omega Comp.
+       </p>
+       <a class="inline-block mt-4 text-indigo-600 font-semibold hover:underline" href="#">
+        View Project
+       </a>
+      </div>
+     </article>
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+      <img alt="Portfolio website showcasing photography and design work" class="w-full h-48 object-cover" height="400" loading="lazy" src="img/desain foto.jpg" width="600"/>
+      <div class="p-6">
+       <h3 class="text-xl font-semibold text-gray-900">
+        Photography
+       </h3>
+       <p class="mt-2 text-gray-700">
+        Saya seorang fotografer yang berdedikasi untuk menangkap momen, emosi, dan keindahan melalui lensa. Memiliki pemahaman mendalam tentang segitiga eksposur (ISO, aperture, shutter speed), komposisi visual, dan manipulasi cahaya untuk menciptakan gambar yang bercerita. Terlatih dalam berbagai genre fotografi, Didukung oleh keterampilan pengeditan profesional menggunakan Adobe Lightroom dan Photoshop untuk menyempurnakan hasil akhir dan menyampaikan visi artistik.
+       </p>
+       <a class="inline-block mt-4 text-indigo-600 font-semibold hover:underline" href="#">
+        View Project
+       </a>
+      </div>
+     </article>
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+      <img alt="Task management app dashboard with charts and task lists" class="w-full h-48 object-cover" height="400" loading="lazy" src="img/Screenshot 2025-06-23 210734.png" width="600"/>
+      <div class="p-6">
+       <h3 class="text-xl font-semibold text-gray-900">
+        Editor Content
+       </h3>
+       <p class="mt-2 text-gray-700">
+        Mampu membuat content video yang terafiliasi di youtube pribadi dan mampu membuat progres menarik yang berkaitan dengan video aesthetic dan dokumenter.
+       </p>
+       <a class="inline-block mt-4 text-indigo-600 font-semibold hover:underline" href="#">
+        View Project
+       </a>
+      </div>
+     </article>
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+      <img alt="Blog platform with clean typography and responsive layout" class="w-full h-48 object-cover" height="400" loading="lazy" src="img/Desain tanpa judul.png" width="600"/>
+      <div class="p-6">
+       <h3 class="text-xl font-semibold text-gray-900">
+        Editor Aplikasi Raport excel
+       </h3>
+       <p class="mt-2 text-gray-700">
+        Mampu membuat Aplikasi Raport Excel dasar menggunakan vitur VLOOKUP, Macros dan Extensi lain dengan menitik beratkan pada fungsi dan kebutuhan.
+       </p>
+       <a class="inline-block mt-4 text-indigo-600 font-semibold hover:underline" href="#">
+        View Project
+       </a>
+      </div>
+     </article>
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+      <img alt="Weather app showing current conditions and forecast charts" class="w-full h-48 object-cover" height="400" loading="lazy" src="img/Screenshot 2025-06-24 075159.png" width="600"/>
+      <div class="p-6">
+       <h3 class="text-xl font-semibold text-gray-900">
+        Kesenian Hadrah
+       </h3>
+       <p class="mt-2 text-gray-700">
+        Memiliki penguasaan mendalam tentang struktur syair dan makna religius dalam repertoar Hadrah. Berkomitmen melestarikan nilai spiritual seni Hadrah sebagai media dakwah, sekaligus menginovasi pola tabuh untuk audiens kontemporer.
+       </p>
+       <a class="inline-block mt-4 text-indigo-600 font-semibold hover:underline" href="#">
+        View Project
+       </a>
+      </div>
+     </article>
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+      <img alt="Social media dashboard with user stats and activity feed" class="w-full h-48 object-cover" height="400" loading="lazy" src="img/Screenshot 2025-06-24 080021.png" width="600"/>
+      <div class="p-6">
+       <h3 class="text-xl font-semibold text-gray-900">
+        Building Website Sederhana
+       </h3>
+       <p class="mt-2 text-gray-700">
+        Mampu membuat website sederhana menggunakan html, CSS, dan Javascript secara efisien untuk membuat landing page, tampilan UI, dan integrasi dengan kontak dan media sosial.
+       </p>
+       <a class="inline-block mt-4 text-indigo-600 font-semibold hover:underline" href="#">
+        View Project
+       </a>
+      </div>
+     </article>
+    </div>
+   </section>
+   <!-- Skills Section -->
+   <section class="mt-20 max-w-4xl mx-auto text-center" id="skills">
+    <h2 class="text-3xl font-bold text-indigo-600 mb-12">
+     Skills
+    </h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+     <div class="flex flex-col items-center">
+      <img alt="JavaScript logo icon in yellow with JS letters" class="w-20 h-20" height="64" loading="lazy" src="img/microsoft-excel-logo-transparent-free-png.webp" width="64"/>
+      <p class="mt-2 font-semibold text-gray-800">
+       Ms. Excel
+      </p>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="React logo icon in blue with atom symbol" class="w-32 h-16" height="64" loading="lazy" src="img/Microsoft-Word-Symbol.png" width="64"/>
+      <p class="mt-2 font-semibold text-gray-800">
+       Ms. Word
+      </p>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Node.js logo icon in green with hexagon shape" class="w-16 h-16" height="64" loading="lazy" src="img/f532571da1fe9af84b95e3db5e79d4c3.png" width="64"/>
+      <p class="mt-2 font-semibold text-gray-800">
+       Corel Draw
+      </p>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Tailwind CSS logo icon with blue and teal waves" class="w-16 h-16" height="64" loading="lazy" src="img/photoshop_PNG56.png" width="64"/>
+      <p class="mt-2 font-semibold text-gray-800">
+       Photoshop
+      </p>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="HTML5 logo icon in orange with shield shape" class="w-32 h-16" height="64" loading="lazy" src="img/Canva-Emblem.png" width="64"/>
+      <p class="mt-2 font-semibold text-gray-800">
+       Canva
+      </p>
+      <dialog spellcheck="true"> getElementById</dialog>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="CSS3 logo icon in blue with shield shape" class="w-16 h-16" height="64" loading="lazy" src="img/png-capcut-logo.png" width="64"/>
+      <p class="mt-2 font-semibold text-gray-800">
+       Capcut
+      </p>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Git logo icon in orange with branching symbol" class="w-16 h-16" height="64" loading="lazy" src="img/vs code.png" width="64"/>
+      <p class="mt-2 font-semibold text-gray-800">
+       VS Code
+      </p>
+     </div>
+     <div class="flex flex-col items-center">
+      
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Python logo icon with blue and yellow intertwined snakes" class="w-16 h-16" height="64" loading="lazy" src="img/Vegas_Pro_15.0.webp" width="64"/>
+      <p class="mt-2 font-semibold text-gray-800">
+       Vegas
+      </p>
+     </div>
+    </div>
+   </section>
+   <!-- Testimonials Section -->
+   <section class="mt-20 max-w-4xl mx-auto text-center" id="testimonials">
+    <h2 class="text-3xl font-bold text-indigo-600 mb-12">
+     Testimonials
+    </h2>
+    <div class="space-y-10">
+     <blockquote class="bg-white p-8 rounded-lg shadow-md">
+      <p class="text-gray-700 italic">
+       "Bersama Bapak Nur Rahmad, tim Tata Usaha kami bekerja dengan presisi tinggi. Beliau memiliki kemampuan luar biasa dalam mengelola administrasi keuangan, arsip akademik, dan logistik sekolah dengan sistematis. Tak ada dokumen yang terlambat atau salah input berkat ketelitiannya. Lebih dari sekadar staf, beliau adalah pilar yang menjamin kelancaran operasional sekolah sehari-hari."
+      </p>
+      <footer class="mt-4 text-indigo-600 font-semibold">
+       - Ahmad Nafiul Anam, S.Ag., M.Pd, Kepala SD Nahdlatul Ulama
+      </footer>
+     </blockquote>
+     <blockquote class="bg-white p-8 rounded-lg shadow-md">
+      <p class="text-gray-700 italic">
+       "Bersama Pak Rahmad, urusan administrasi kelas jadi ringan. Setiap kali saya butuh rapormu, data siswa, atau dokumen akreditasi — beliau selalu siap dengan sistem filing-nya yang rapi. Tak pernah sekalipun salah kirim berkas! Lebih dari itu, beliau sering mengingatkan deadline yang saya lupa. Guru seperti kami bisa fokus mengajar karena ada ‘penjaga gawang’ administrasi sehandal beliau."
+      </p>
+      <footer class="mt-4 text-indigo-600 font-semibold">
+       - Sri Wahyuni, S.Pd , Guru Kelas 
+      </footer>
+     </blockquote>
+     <blockquote class="bg-white p-8 rounded-lg shadow-md">
+      <p class="text-gray-700 italic">
+       "Bersama Pak Rahmad , Tim Hadrah SD Nahdlatul Ulama Mampu mengisi Agenda Besar setingkat Kecamatan, dan meningkatkan kualitas penampilan dari Tim Hadrah SDNU"
+      </p>
+      <footer class="mt-4 text-indigo-600 font-semibold">
+       - Ahmad Fuad Musbihiin, S.Pd., Guru Agama
+      </footer>
+     </blockquote>
+    </div>
+   </section>
+   <!-- Contact Section -->
+   <section class="mt-20 max-w-3xl mx-auto bg-white p-10 rounded-lg shadow-md" id="contact">
+    <h2 class="text-3xl font-bold text-indigo-600 mb-8 text-center">
+     Contact Me
+    </h2>
+    <form action="#" class="space-y-6" method="POST">
+     <div>
+      <label class="block text-gray-700 font-semibold mb-2" for="name">
+       Name
+      </label>
+      <input class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500" id="name" name="name" placeholder="Your full name" required="" type="text"/>
+     </div>
+     <div>
+      <label class="block text-gray-700 font-semibold mb-2" for="email">
+       Email
+      </label>
+      <input class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500" id="email" name="email" placeholder="you@example.com" required="" type="email"/>
+     </div>
+     <div>
+      <label class="block text-gray-700 font-semibold mb-2" for="message">
+       Message
+      </label>
+      <textarea class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500" id="message" name="message" placeholder="Write your message here..." required="" rows="5"></textarea>
+     </div>
+     <div class="text-center">
+      <button class="inline-block bg-indigo-600 text-white font-semibold px-8 py-3 rounded-md shadow hover:bg-indigo-700 transition" type="submit">
+       Send Message
+      </button>
+     </div>
+    </form>
+   </section>
+  </main>
+  <footer class="bg-white border-t border-gray-200 mt-20 py-8">
+   <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+    <p class="text-gray-600">
+     © 2024 Nur Rahmad Rifkiyanto. All rights reserved.
+    </p>
+    <div class="flex space-x-6 text-gray-600">
+     <a aria-label="GitHub" class="hover:text-indigo-600 transition" href="https://github.com/yourname" rel="noopener" target="_blank">
+      <i class="fab fa-github fa-lg">
+      </i>
+     </a>
+     <a aria-label="LinkedIn" class="hover:text-indigo-600 transition" href="https://linkedin.com/in/yourname" rel="noopener" target="_blank">
+      <i class="fab fa-linkedin fa-lg">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-indigo-600 transition" href="https://twitter.com/yourname" rel="noopener" target="_blank">
+      <i class="fab fa-twitter fa-lg">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
